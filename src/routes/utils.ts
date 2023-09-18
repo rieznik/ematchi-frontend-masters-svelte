@@ -10,3 +10,8 @@ export function shuffle<T>(array: T[]) {
 
 	return array;
 }
+
+export function getTwemojiUrl(emoji: string) {
+	const code = [...emoji].map((char) => char.codePointAt(0)!.toString(16)).join('-');
+	return `/twemoji/${code}.svg`;
+}
