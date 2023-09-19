@@ -17,7 +17,7 @@ const config = {
 			strict: false
 		}),
 		paths: {
-			base: dev ? '' : process.env.BASE_PATH
+			base: dev ? '' : '/ematchi-frontend-masters-svelte'
 		}
 	}
 };
