@@ -17,7 +17,7 @@ const config = {
 			strict: false
 		}),
 		paths: {
-			base: dev ? '' : 'https://rieznik.github.io/'
+			base: dev ? '' : process.env.BASE_PATH
 		}
 	}
 };
