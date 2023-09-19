@@ -1,8 +1,18 @@
-# create-svelte
+# [Ematchi game](https://rieznik.github.io/ematchi-frontend-masters-svelte)
+
+This game was created following a **Svelte Fundamentals** course on [Frontend Masters](https://frontendmasters.com/courses/svelte-v2/)
+
+Preview it on [GitHub Pages](https://rieznik.github.io/ematchi-frontend-masters-svelte)
+
+![Screenshot of Ematchi game start screen.](./docs/preview.jpg)
+
+![Screenshot of Ematchi game gameplay.](./docs/gameplay.jpg)
+
+## create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-## Creating a project
+### Creating a project
 
 If you're seeing this, you've probably already done this step. Congrats!
 
@@ -14,7 +24,7 @@ npm create svelte@latest
 npm create svelte@latest my-app
 ```
 
-## Developing
+### Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
@@ -25,7 +35,7 @@ npm run dev
 npm run dev -- --open
 ```
 
-## Building
+### Building
 
 To create a production version of your app:
 
